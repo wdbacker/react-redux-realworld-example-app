@@ -3,7 +3,8 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'https://conduit.productionready.io/api';
+//const API_ROOT = 'https://conduit.productionready.io/api';
+const API_ROOT = 'http://192.168.x.x:8080/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
